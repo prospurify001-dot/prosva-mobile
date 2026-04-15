@@ -7,7 +7,7 @@ export default function HomeScreen() {
 
     try {
       const res = await axios.post(
-        "https://prosva-backend-2.onrender.com/api/rides/request",
+        "https://prosva-backend-3.onrender.com/api/rides/request",
         {
           pickupLat: 9.0579,
           pickupLng: 7.4951,
